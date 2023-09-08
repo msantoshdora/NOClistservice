@@ -1,21 +1,13 @@
-# NoclistService
+# Language Used
+ Elixir version 1.13
 
-**TODO: Add description**
+Steps to run NoclistService:
+1. Clone repo in your local
+2. Open terminal inside the noclistservice repo
+3. Run command 'mix deps.get' to install the necessary dependencies
+4. Run command 'source .env'
+5. Run command 'iex -S mix' to open Interactive Elixir
+6. Now enter command 'NoclistService.fetch_users' to run the code to fetch the NOC list users.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `noclistservice` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:noclistservice, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/noclistservice>.
-
+# Note
+.env is the file to add the necessary ENVs for the URI to be called.
