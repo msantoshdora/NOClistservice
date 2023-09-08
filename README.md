@@ -1,7 +1,7 @@
 # Language Used
  Elixir version 1.13
 
-Steps to run NoclistService:
+# Steps to run NoclistService:
 1. Clone repo in your local
 2. Open terminal inside the noclistservice repo
 3. Run command 'mix deps.get' to install the necessary dependencies
